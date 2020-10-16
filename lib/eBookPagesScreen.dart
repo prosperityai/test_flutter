@@ -572,35 +572,6 @@ class eBookPagesScreen extends StatelessWidget {
               textAlign: TextAlign.left,
             ),
           ),
-          Transform.translate(
-            offset: Offset(3.0, 7.0),
-            child:
-                // Adobe XD layer: 'Status bar/light' (group)
-                SizedBox(
-              width: 361.0,
-              height: 21.0,
-              child: Stack(
-                children: <Widget>[
-                  Pinned.fromSize(
-                    bounds: Rect.fromLTWH(0.0, 0.0, 87.9, 12.7),
-                    size: Size(360.6, 21.4),
-                    pinLeft: true,
-                    pinTop: true,
-                    fixedWidth: true,
-                    fixedHeight: true,
-                    child:
-                        // Adobe XD layer: 'bg' (shape)
-                        SvgPicture.string(
-                      _svg_praa1g,
-                      allowDrawingOutsideViewBox: true,
-                      fit: BoxFit.fill,
-                    ),
-                  ),
-                  Container(),
-                ],
-              ),
-            ),
-          ),
         ],
       ),
     );
@@ -621,5 +592,3 @@ const String _svg_d60vf =
     '<svg viewBox="2.0 2.0 10.4 10.4" ><path  d="M 4.397180080413818 12.38778018951416 L 3.598119974136353 12.38778018951416 C 2.715502738952637 12.38778018951416 2 11.67227745056152 2 10.78966045379639 L 2 3.598119974136353 C 2 2.715502738952637 2.715502738952637 1.999999761581421 3.598120450973511 2 L 10.78966045379639 2 C 11.67227745056152 2 12.38778018951416 2.715502738952637 12.38778018951416 3.598119974136353 L 12.38778018951416 4.397180080413818" fill="none" stroke="#c8c9cc" stroke-width="2" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_bklmsj =
     '<svg viewBox="134.5 370.5 1.0 22.0" ><path transform="translate(134.5, 370.5)" d="M 0 22 L 0 0" fill="none" stroke="#c8c9cc" stroke-width="2" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_praa1g =
-    '<svg viewBox="0.0 0.0 87.9 12.7" ><path transform="translate(0.0, 44.0)" d="M 0 -43.99999618530273 L 87.92572021484375 -43.99999618530273 L 87.92572021484375 -31.29529762268066 L 0 -31.29529762268066 L 0 -43.99999618530273 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';

@@ -2011,35 +2011,6 @@ class eBookDetailsScreen extends StatelessWidget {
               ),
             ),
           ),
-          Transform.translate(
-            offset: Offset(3.0, 7.0),
-            child:
-                // Adobe XD layer: 'Status bar/light' (group)
-                SizedBox(
-              width: 361.0,
-              height: 21.0,
-              child: Stack(
-                children: <Widget>[
-                  Pinned.fromSize(
-                    bounds: Rect.fromLTWH(0.0, 0.0, 87.9, 12.7),
-                    size: Size(360.6, 21.4),
-                    pinLeft: true,
-                    pinTop: true,
-                    fixedWidth: true,
-                    fixedHeight: true,
-                    child:
-                        // Adobe XD layer: 'bg' (shape)
-                        SvgPicture.string(
-                      _svg_praa1g,
-                      allowDrawingOutsideViewBox: true,
-                      fit: BoxFit.fill,
-                    ),
-                  ),
-                  Container(),
-                ],
-              ),
-            ),
-          ),
         ],
       ),
     );
@@ -2062,5 +2033,3 @@ const String _svg_typi9z =
     '<svg viewBox="20.0 62.5 8.3 16.6" ><path transform="translate(11.0, 56.5)" d="M 17.29393768310547 22.5878791809082 L 9 14.2939395904541 L 17.29393768310547 6" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" /></svg>';
 const String _svg_pjjfnk =
     '<svg viewBox="332.9 63.5 17.1 15.0" ><path transform="translate(331.31, 60.5)" d="M 17.36684989929199 4.324044704437256 C 15.60549640655518 2.556216478347778 12.74889469146729 2.556215763092041 10.98753929138184 4.324042797088623 L 10.11837863922119 5.195990562438965 L 9.24921989440918 4.324044704437256 C 7.487621784210205 2.556804656982422 4.63150691986084 2.556804895401001 2.869908571243286 4.32404613494873 C 1.108310341835022 6.091286182403564 1.10831081867218 8.956549644470215 2.869908809661865 10.72379112243652 L 3.739069223403931 11.59573459625244 L 10.11837863922119 17.99548149108887 L 16.4976921081543 11.59573364257812 L 17.36684989929199 10.72379016876221 C 19.12903594970703 8.956792831420898 19.12903594970703 6.091041088104248 17.36685180664062 4.324043750762939 Z" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>';
-const String _svg_praa1g =
-    '<svg viewBox="0.0 0.0 87.9 12.7" ><path transform="translate(0.0, 44.0)" d="M 0 -43.99999618530273 L 87.92572021484375 -43.99999618530273 L 87.92572021484375 -31.29529762268066 L 0 -31.29529762268066 L 0 -43.99999618530273 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';

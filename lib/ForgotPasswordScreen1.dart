@@ -2392,20 +2392,6 @@ class ForgotPasswordScreen1 extends StatelessWidget {
               ),
             ),
           ),
-          Transform.translate(
-            offset: Offset(11.9, 10.4),
-            child:
-                // Adobe XD layer: 'Status bar/light' (group)
-                SizedBox(
-              width: 352.0,
-              height: 18.0,
-              child: Stack(
-                children: <Widget>[
-                  Container(),
-                ],
-              ),
-            ),
-          ),
         ],
       ),
     );

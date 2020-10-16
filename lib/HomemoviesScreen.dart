@@ -1252,36 +1252,6 @@ class HomemoviesScreen extends StatelessWidget {
                   ),
                 ),
                 Pinned.fromSize(
-                  bounds: Rect.fromLTWH(3.0, 7.0, 360.6, 21.4),
-                  size: Size(375.0, 145.8),
-                  pinLeft: true,
-                  pinRight: true,
-                  pinTop: true,
-                  fixedHeight: true,
-                  child:
-                      // Adobe XD layer: 'Status bar/light' (group)
-                      Stack(
-                    children: <Widget>[
-                      Pinned.fromSize(
-                        bounds: Rect.fromLTWH(0.0, 0.0, 87.9, 12.7),
-                        size: Size(360.6, 21.4),
-                        pinLeft: true,
-                        pinTop: true,
-                        fixedWidth: true,
-                        fixedHeight: true,
-                        child:
-                            // Adobe XD layer: 'bg' (shape)
-                            SvgPicture.string(
-                          _svg_praa1g,
-                          allowDrawingOutsideViewBox: true,
-                          fit: BoxFit.fill,
-                        ),
-                      ),
-                      Container(),
-                    ],
-                  ),
-                ),
-                Pinned.fromSize(
                   bounds: Rect.fromLTWH(144.2, 111.3, 50.0, 19.0),
                   size: Size(375.0, 145.8),
                   pinBottom: true,
@@ -1376,7 +1346,5 @@ const String _svg_rerm0o =
     '<svg viewBox="47.5 134.3 14.4 1.0" ><path transform="translate(47.54, 134.34)" d="M 0 0 L 14.36849784851074 0" fill="none" stroke="#ffffff" stroke-width="3" stroke-miterlimit="4" stroke-linecap="round" /></svg>';
 const String _svg_jwv0m0 =
     '<svg viewBox="12.0 12.9 3.8 3.8" ><path transform="translate(11.97, 12.93)" d="M 0 0 L 3.831599473953247 3.831599473953247" fill="none" stroke="#7d8081" stroke-width="2" stroke-miterlimit="4" stroke-linecap="round" /></svg>';
-const String _svg_praa1g =
-    '<svg viewBox="0.0 0.0 87.9 12.7" ><path transform="translate(0.0, 44.0)" d="M 0 -43.99999618530273 L 87.92572021484375 -43.99999618530273 L 87.92572021484375 -31.29529762268066 L 0 -31.29529762268066 L 0 -43.99999618530273 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_e0f94a =
     '<svg viewBox="1.5 145.5 106.0 1.0" ><path transform="translate(1.5, 145.5)" d="M 0 0 L 106 0" fill="none" stroke="#ff6600" stroke-width="3" stroke-miterlimit="4" stroke-linecap="round" /></svg>';
