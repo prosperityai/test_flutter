@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class AccountScreen extends StatelessWidget {
+  static const routeName = './account-screen';
   AccountScreen({
     Key key,
   }) : super(key: key);

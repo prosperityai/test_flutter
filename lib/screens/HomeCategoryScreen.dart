@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class HomeCategoryScreen extends StatelessWidget {
+  static const routeName = './home-category-screen';
   HomeCategoryScreen({
     Key key,
   }) : super(key: key);
