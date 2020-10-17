@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class HomeeBooksScreen extends StatelessWidget {
+  static const routeName = './home-ebooks-screen';
   HomeeBooksScreen({
     Key key,
   }) : super(key: key);

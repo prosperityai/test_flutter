@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class eBookPagesScreen extends StatelessWidget {
-  eBookPagesScreen({
+class EBookPagesScreen extends StatelessWidget {
+  static const routeName = './ebook-pages-screen';
+  EBookPagesScreen({
     Key key,
   }) : super(key: key);
   @override

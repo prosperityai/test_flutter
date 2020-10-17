@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class ProfileDetailsScreen extends StatelessWidget {
+  static const routeName = './profile-details-screen';
   ProfileDetailsScreen({
     Key key,
   }) : super(key: key);

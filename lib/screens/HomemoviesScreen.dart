@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class HomemoviesScreen extends StatelessWidget {
+  static const routeName = './home-movies-screen';
   HomemoviesScreen({
     Key key,
   }) : super(key: key);

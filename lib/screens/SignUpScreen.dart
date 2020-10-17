@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class SignUpScreen extends StatelessWidget {
+  static const routeName = './sign-up';
   SignUpScreen({
     Key key,
   }) : super(key: key);

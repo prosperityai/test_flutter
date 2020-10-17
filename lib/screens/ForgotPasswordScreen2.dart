@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class ForgotPasswordScreen2 extends StatelessWidget {
+  static const routeName = './forgot-pass-2-screen';
   ForgotPasswordScreen2({
     Key key,
   }) : super(key: key);

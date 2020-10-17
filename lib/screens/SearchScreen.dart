@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class SearchScreen extends StatelessWidget {
+  static const routeName = './search-screen';
   SearchScreen({
     Key key,
   }) : super(key: key);

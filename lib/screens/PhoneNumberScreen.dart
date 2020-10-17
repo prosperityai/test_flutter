@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class ForgotPasswordScreen1 extends StatelessWidget {
-  ForgotPasswordScreen1({
+class PhoneNumberScreen extends StatelessWidget {
+  static const routeName = './phone-number-screen';
+  PhoneNumberScreen({
     Key key,
   }) : super(key: key);
   @override
@@ -93,11 +94,11 @@ class ForgotPasswordScreen1 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(102.4, 484.0),
+            offset: Offset(138.4, 484.0),
             child: SizedBox(
-              width: 163.0,
+              width: 91.0,
               child: Text(
-                'Send new password',
+                'SEND OTP',
                 style: TextStyle(
                   fontFamily: 'Segoe UI',
                   fontSize: 15,
@@ -2347,21 +2348,21 @@ class ForgotPasswordScreen1 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(92.0, 208.8),
+            offset: Offset(108.0, 208.8),
             child: SizedBox(
-              width: 208.0,
-              height: 75.0,
+              width: 176.0,
+              height: 57.0,
               child: Stack(
                 children: <Widget>[
                   Pinned.fromSize(
-                    bounds: Rect.fromLTWH(0.0, 0.0, 208.0, 34.0),
-                    size: Size(208.0, 75.3),
+                    bounds: Rect.fromLTWH(1.0, 0.0, 174.0, 34.0),
+                    size: Size(176.0, 57.3),
                     pinLeft: true,
                     pinRight: true,
                     pinTop: true,
                     fixedHeight: true,
                     child: Text(
-                      'Forgot password?',
+                      'Phone Number',
                       style: TextStyle(
                         fontFamily: 'Roboto',
                         fontSize: 26,
@@ -2372,14 +2373,14 @@ class ForgotPasswordScreen1 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromSize(
-                    bounds: Rect.fromLTWH(16.0, 42.3, 176.0, 33.0),
-                    size: Size(208.0, 75.3),
+                    bounds: Rect.fromLTWH(0.0, 42.3, 176.0, 15.0),
+                    size: Size(176.0, 57.3),
                     pinLeft: true,
                     pinRight: true,
                     pinBottom: true,
                     fixedHeight: true,
                     child: Text(
-                      'New password will be sent\nyou via SMS',
+                      'Enter Your Phone Number',
                       style: TextStyle(
                         fontFamily: 'Leelawadee',
                         fontSize: 15,
